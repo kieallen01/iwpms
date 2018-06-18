@@ -1,0 +1,415 @@
+body{
+	background-color:rgba(0,0,0,0.09);
+	font-family: Helvetica;
+}
+.footer{
+  margin-left: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  line-height: 40px;
+  color: gray;
+}
+#bauang{
+  font-size: 13px;
+  color: gray;
+  margin-left: 10px;
+}
+#user_level{
+  font-size: 13px !important;
+}
+#date-index{
+  font-size: 13px;
+  color: gray;
+  margin-left: 10px;
+}
+#systitle{
+  font-size: 13px;
+  color: gray;
+}
+#dashboard{
+  text-decoration: none;
+  color: gray;
+  font-size: 25px;
+}
+#date{
+  margin-top: 10px;
+}
+#gov{
+  font-size: 13px;
+  margin-left: 20px;
+}
+#title{
+  text-align: left;
+  font-size: 73px;
+  color:rgba(0,0,0,0.4);
+}
+#backup,#restore{
+  height: 140px;
+}
+hr{
+  border: white solid 0.5px;
+}
+div.toast-message{
+  font-size:13px;
+}
+input{
+  border-radius: 0px !important;
+  font-size: 13px !important;
+}
+.card.login {
+  border-radius: 7px 7px 0px 0px !important;
+  border-top:#3cba54 solid 2px  !important;
+}
+.card-header,.card-body,.custom-select{
+  color:gray;
+}
+.nanobar {
+  width: 100%;
+  height: 4px;
+  z-index: 9999;
+  top:0
+}
+.bar {
+  width: 0;
+  height: 100%;
+  transition: height .3s;
+  background:#3cba54;
+}
+.list-unstyled{
+  color:#b8daff;
+}
+.list-unstyled a {
+  color:gray !important;
+  font-size: 13px;
+}
+.list-unstyled a:hover {
+  color:white !important;
+  background-color:#3cba54 !important;
+}
+#main-nav{
+  color: gray;
+  padding:10px;
+  box-shadow: 0 2px 2px -2px gray;
+  font-size: 13px;
+}
+#filter{
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+.card-box-footer{
+  position: relative;
+  text-align: center;
+  padding: 3px 0;
+  color: white !important;
+  font-size: 12px;
+  display: block;
+  z-index: 10;
+  text-decoration: none;
+  background: #3cba54;
+}
+.card.card-panel, .stats{
+  border-top:#3cba54 solid 2px  !important;
+  border-radius: 7px 7px 0px 0px;
+}
+.card-header{
+  font-size: 13px !important;
+}
+.custom-select{
+  font-size: 13px;
+  padding-left: 9px;
+  border-radius: 0px;
+}
+.input-group-text{
+  width: 30px;
+}
+
+.input-group-text.view{
+  width: 100px;
+  font-size: 12px !important;
+  border-right: 2px solid gray;
+}
+
+#remodal-view-user,#remodal-edit-user,#remodal-view-fee,#remodal-edit-fee,#remodal-view-applicant,#remodal-iwp-report, #remodal-id-report,#remodal-collection-report,#remodal-log-report{
+  max-width: 50%;
+  border-top:2px solid #3cba54;
+}
+#remodal-view-applicantR, #remodal-edit-applicantR,#remodal-edit-applicant{
+  border-top:2px solid #3cba54;
+}
+
+.modal-label{
+  font-size: 13px;
+  text-align: left;
+}
+
+.form-control.form-control-sm.view{
+  background-color: white;
+}
+
+.form-control.form-control-sm.view-show{
+  background-color: white;
+  border:none;
+  border-bottom: 1px solid rgba(0,0,0,0.09);
+}
+
+.form-check-label{
+  font-size: 18px;
+}
+
+.nav-link.dropdown-toggle.d-inline, .bell{
+  color: rgba(0,0,0,0.4) !important;
+  cursor: pointer;
+  color: gray !important;
+}
+.dropdown-item{
+  font-size: 13px;
+}
+
+
+/*table*/
+td{
+  font-size: 12px;
+  padding: 5px !important;
+  margin-bottom: 0px !important;
+  color:gray;
+}
+th{
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  color:gray;
+}
+#tblSystemUsers_length,#tblListOfFees_length{
+  display: none;
+}
+label{
+  font-size: 13px;
+}
+select.form-control.form-control-sm{
+  height: 10px;
+}
+.dataTables_info{
+  font-size: 13px;
+}
+.paginate_button{
+  font-size: 12px;
+}
+
+
+/*nanobar*/
+.nanobar {
+  width: 100%;
+  height: 3px;
+  z-index: 9999;
+  top:0
+}
+.bar {
+  width: 0;
+  height: 100%;
+  transition: height .3s;
+  background:#3cba54;
+}
+a.btn.btn-nav{
+  width: 205px;
+  font-size: 12px;
+  color: gray;
+  border-radius: 0px;
+  margin: 1px;
+}
+
+a.btn.btn-nav:hover{
+  color: white;
+  background-color: #3cba54 !important;
+}
+
+a.btn.btn-nav.active{
+  border-top: #3cba54 1px solid;
+  color: #3cba54;
+  background-color: white !important;
+}
+
+#approveOnline, #approveRenewal{
+  font-size: 12px !important;
+}
+
+a.dropdown-item:hover{
+  color: white;
+  background-color: #3cba54 !important;
+}
+
+li.nav-item a.active{
+  border-top: #3cba54 1px solid;
+  color: #3cba54;
+  background-color: white !important;
+}
+.navbar{
+  box-shadow: 0 2px 2px -2px gray;
+}
+.sidebar{
+  box-shadow: 2px 0 2px -2px gray;
+}
+#nav-title{
+  cursor: pointer;
+  text-decoration: none;
+  color: gray;
+  font-weight: bolder;  
+  font-size: 13px;
+  margin-left: 10px;
+}
+/*
+    Component: Small boxes
+*/
+.small-box {
+  position: relative;
+  display: block;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  border-top:#3cba54 solid 2px  !important;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+.small-box > .inner {
+  padding: 5px;
+}
+.small-box > .small-box-footer {
+  position: relative;
+  text-align: center;
+  padding: 3px 0;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+.small-box > .card-box-footer:hover {
+  color: white;
+  background: #3cba54;
+  cursor: hand;
+  text-decoration: none;
+}
+.small-box h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 0px 0;
+  white-space: nowrap;
+  padding: 0;
+}
+.small-box p {
+  font-size: 15px;
+  color: gray !important;
+  font-size: 13px !important;
+}
+.small-box p > small {
+  display: block;
+  color: #f9f9f9;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.small-box h3,
+.small-box p {
+  z-index: 5px;
+  color: gray;
+}
+.small-box .icon {
+  position: absolute;
+  top: auto;
+  bottom: 5px;
+  right: 5px;
+  z-index: 0;
+  font-size: 50px;
+  color: gray;
+  margin-bottom: 15px;
+}
+.small-box:hover {
+  text-decoration: none;
+  color: gray;
+}
+.small-box:hover .icon {
+  animation-name: tansformAnimation;
+  animation-duration: .5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: tansformAnimation;
+  -webkit-animation-duration: .5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-name: tansformAnimation;
+  -moz-animation-duration: .5s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: forwards;
+}
+@keyframes tansformAnimation {
+  from {
+    font-size: 50px;
+  }
+  to {
+    font-size: 60px;
+  }
+}
+@-webkit-keyframes tansformAnimation {
+  from {
+    font-size: 50px;
+  }
+  to {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .small-box {
+    text-align: center;
+  }
+  .small-box .icon {
+    display: none;
+  }
+  .small-box p {
+    font-size: 12px;
+  }
+}
+
+i.fa.fa-id-badge, .report{
+  font-size: 40px !important;
+}
+/*
+    component: Boxes
+-------------------------
+*/
+a.card:hover {
+  text-decoration: none;
+  background-color: white !important;
+  color: gray;
+}
+i.icon-report {
+  font-size: 30px !important;
+}
+.report-label{
+  margin-left: 10px;
+  font-size: 13px;
+}
+li.vr{
+  font-size: 25px;
+  padding: 0px;
+}
+label.form-check-label.add{
+  font-size:14px;
+}
+.drop{
+  border:none;
+  background-color:white !important; 
+  text-align: center;
+}
+#toggle{
+  cursor: pointer;
+}
+#iwpms{
+  font-size: 14.5px;
+  text-decoration: none;
+  color: gray;
+}

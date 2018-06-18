@@ -1,0 +1,450 @@
+body{
+  background-color:rgba(0,0,0,0.07);
+  font-family: Helvetica;
+}
+.footer{
+  margin-left: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  line-height: 40px;
+  color: #606060;
+}
+#bauang{
+  font-size: 13px;
+  color: #606060;
+  margin-left: 10px;
+}
+#user_level{
+  font-size: 13px !important;
+}
+#date-index{
+  font-size: 13px;
+  color: #606060;
+  margin-left: 10px;
+}
+#systitle{
+  font-size: 13px;
+  color: #606060;
+}
+#dashboard{
+  text-decoration: none;
+  color: #606060;
+  font-size: 25px;
+}
+#date{
+  margin-top: 10px;
+}
+#gov{
+  font-size: 13px;
+  margin-left: 20px;
+}
+#title{
+  text-align: left;
+  font-size: 73px;
+  color:rgba(0,0,0,0.4);
+}
+#backup,#restore{
+  height: 140px;
+}
+hr{
+  border: white solid 0.5px;
+}
+div.toast-message{
+  font-size:13px;
+}
+input{
+  border-radius: 0px !important;
+  font-size: 13px !important;
+}
+.card.login {
+  border-radius: 7px 7px 0px 0px !important;
+  border-top:rgb(51, 193, 255)  solid 2px  !important;
+}
+.card-header,.card-body,.custom-select{
+  color:#606060;
+}
+.list-unstyled{
+  color:#b8daff;
+}
+.list-unstyled a {
+  color:#606060 !important;
+  font-size: 13.5px;
+}
+
+.list-unstyled a .fa {
+  font-size: 24px;
+  color:rgba(51, 193, 255, 1);
+}
+
+.list-unstyled a:hover {
+  color:white !important;
+  background-color:rgba(51, 193, 255, 1) !important;
+}
+
+.list-unstyled a:hover .fa{
+  color:white !important;
+}
+
+
+#main-nav{
+  color: #606060;
+  padding:10px;
+  padding-top:30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#filter{
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+.card-box-footer{
+  position: relative;
+  text-align: center;
+  padding: 3px 0;
+  color: white !important;
+  font-size: 12px;
+  display: block;
+  z-index: 10;
+  text-decoration: none;
+  background: rgba(51, 193, 255, 1);
+}
+.card.card-panel, .stats{
+  border-top:rgb(51, 193, 255)  solid 2px  !important;
+  border-radius: 7px 7px 0px 0px;
+}
+.card-header{
+  font-size: 13px !important;
+}
+.custom-select{
+  font-size: 13px;
+  padding-left: 9px;
+  border-radius: 0px;
+}
+.input-group-text{
+  width: 30px;
+}
+
+.input-group-text.view{
+  width: 100px;
+  font-size: 12px !important;
+  background-color: 1px solid rgba(0,0,0,0.03);
+}
+.remodal.small{
+  max-width: 50%;
+}
+.remodal{
+  border-top:2px solid rgba(51, 193, 255, 1);
+}
+
+.modal-label{
+  font-size: 13px;
+  text-align: left;
+}
+
+.form-control.form-control-sm.view{
+  background-color: white;
+}
+
+.form-control.form-control-sm.view-show{
+  background-color: white;
+  border:none;
+  border: 1px solid rgba(0,0,0,0.07);
+}
+
+.form-check-label{
+  font-size: 18px;
+}
+
+.nav-link.dropdown-toggle.d-inline, .bell{
+  color: rgba(0,0,0,0.4) !important;
+  cursor: pointer;
+  color: #606060 !important;
+}
+.dropdown-item{
+  font-size: 13px;
+}
+
+
+/*table*/
+td{
+  font-size: 12.5px;
+  padding: 5px !important;
+  margin-bottom: 0px !important;
+  color:#606060;
+}
+th{
+  font-weight: bold;
+  font-size: 12.5px;
+  text-align: center;
+  color:#606060;
+}
+#tblSystemUsers_length,#tblListOfFees_length{
+  display: none;
+}
+label{
+  font-size: 13px;
+}
+select.form-control.form-control-sm{
+  height: 10px;
+}
+.dataTables_info{
+  font-size: 13px;
+}
+.paginate_button{
+  font-size: 12px;
+}
+
+
+/*nanobar*/
+.nanobar {
+  width: 100%;
+  height: 3px;
+  z-index: 9999;
+  top:0
+}
+.bar {
+  width: 0;
+  height: 100%;
+  transition: height .3s;
+  background:rgb(51, 193, 255) ;
+}
+a.btn.btn-nav{
+  width: 205px;
+  font-size: 12px;
+  color: #606060;
+  border-radius: 0px;
+  margin: 1px;
+}
+a.btn.btn-nav:hover{
+  color: white;
+  background-color: rgba(51, 193, 255, 1) !important;
+}
+a.btn.btn-nav.active{
+  border-top: rgb(51, 193, 255) 1px solid;
+  color: rgb(51, 193, 255);
+  background-color: white !important;
+}
+
+#approveOnline, #approveRenewal{
+  font-size: 12px !important;
+}
+
+a.dropdown-item:hover{
+  color: white;
+  background-color: rgba(51, 193, 255,  1) !important;
+}
+
+li.nav-item a.active{
+  border-top: rgb(51, 193, 255)  1px solid;
+  color: rgb(51, 193, 255) ;
+  background-color: white !important;
+}
+.navbar{
+  box-shadow: 0 2px 2px -2px #606060;
+}
+/*.sidebar{
+  box-shadow: 2px 0 2px -2px #606060;
+}*/
+#nav-title{
+  cursor: pointer;
+  text-decoration: none;
+  color: gray;
+  font-weight: bolder;  
+  font-size: 12px;
+  margin-left: 10px;
+}
+/*
+    Component: Small boxes
+*/
+.small-box {
+  position: relative;
+  display: block;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  border-top:rgb(51, 193, 255)  solid 2px  !important;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+.small-box > .inner {
+  padding: 5px;
+}
+.small-box > .small-box-footer {
+  position: relative;
+  text-align: center;
+  padding: 3px 0;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.card-box-footer{
+  background: white;
+  box-shadow: 0 -5px 2px -5px #999;
+  color: #606060 !important;
+}
+
+.small-box > .card-box-footer:hover {
+  color: white !important;
+  background: rgba(51, 193, 255, 0.8);
+  cursor: hand;
+  text-decoration: none;
+}
+.small-box h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 0px 0;
+  white-space: nowrap;
+  padding: 0;
+}
+.small-box p {
+  font-size: 15px;
+  color: #606060 !important;
+  font-size: 13px !important;
+}
+.small-box p > small {
+  display: block;
+  color: #f9f9f9;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.small-box h3,
+.small-box p {
+  z-index: 5px;
+  color: #606060;
+}
+.small-box .icon {
+  position: absolute;
+  top: auto;
+  bottom: 5px;
+  right: 5px;
+  z-index: 0;
+  font-size: 50px;
+  color: rgba(51, 193, 255, 0.8);
+  margin-bottom: 15px;
+}
+.small-box:hover {
+  text-decoration: none;
+  color: #606060;
+}
+.small-box:hover .icon {
+  animation-name: tansformAnimation;
+  animation-duration: .5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: tansformAnimation;
+  -webkit-animation-duration: .5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-name: tansformAnimation;
+  -moz-animation-duration: .5s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: forwards;
+}
+@keyframes tansformAnimation {
+  from {
+    font-size: 50px;
+  }
+  to {
+    font-size: 60px;
+  }
+}
+@-webkit-keyframes tansformAnimation {
+  from {
+    font-size: 50px;
+  }
+  to {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .small-box {
+    text-align: center;
+  }
+  .small-box .icon {
+    display: none;
+  }
+  .small-box p {
+    font-size: 12px;
+  }
+}
+
+i.fa.fa-id-badge, .report{
+  font-size: 40px !important;
+}
+/*
+    component: Boxes
+-------------------------
+*/
+a.card:hover {
+  text-decoration: none;
+  background-color: white !important;
+  color: #606060;
+}
+i.icon-report {
+  font-size: 30px !important;
+}
+.report-label{
+  margin-left: 10px;
+  font-size: 13px;
+}
+li.vr{
+  font-size: 25px;
+  padding: 0px;
+}
+label.form-check-label.add{
+  font-size:14px;
+}
+.drop{
+  border:none;
+  background-color:white !important; 
+  text-align: center;
+}
+#toggle{
+  cursor: pointer;
+}
+#iwpms{
+  font-size: 14.5px;
+  text-decoration: none;
+  color:#606060;
+}
+#imageUpload{
+  border:1px solid #606060;
+}
+li.paginate_button.page-item.active a.page-link{
+  background-color:rgba(51, 193, 255,  1) !important;
+  border-color: rgba(51, 193, 255, 1) !important;
+}
+a.page-link, a.page-link:hover{
+  color: rgba(51, 193, 255, 1);
+}
+.btn{
+  font-size: 12px;
+}
+
+.card, .small-box{
+  box-shadow:  0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+.filter{
+  width: 120px;
+  font-size: 13px !important;
+}
+.report-date{
+  width: 80px;
+  font-size: 12px !important;
+}
+.sidebar, .navbar{
+  background-color: white;
+}
+#appAge,#feeTotal{
+  background-color: white;
+}
